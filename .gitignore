@@ -1,2 +1,14 @@
 node_modules
 .env
+.obsidian/workspace.json
+.obsidian/appearance.json
+
+.obsidian/plugins/obsidian-git/main.js
+.obsidian/plugins/obsidian-git/manifest.json
+.obsidian/plugins/obsidian-git/styles.css
+.obsidian/plugins/copilot/
+.obsidian/plugins/smart-second-brain/vectorstores/
+.obsidian/plugins/smart-second-brain/main.js
+.obsidian/plugins/smart-second-brain/manifest.json
+.obsidian/plugins/smart-second-brain/styles.css
+Chats
