@@ -1,6 +1,6 @@
 ---
 title: Automating Azure Documentation with an AI Assistant
-tags: "azure", "python", "ai", "agents"
+tags: "azure, python, ai, agents"
 description: "A short guide showing how you can leverage python and az CLI to automate documenting Azure resources."
 series: "Azure Assistants"
 published: true
