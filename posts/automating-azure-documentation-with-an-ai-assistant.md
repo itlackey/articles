@@ -131,7 +131,7 @@ By keeping these prompts flexible and simple, the script avoids over-engineering
 
 ## Running the Script
 
-> Note: You will need to have `az`CLI and python3 installed on your machine before you run this script.
+> Note: You will need to have `az` CLI and python3 installed on your machine before you run this script.
 
 Setting up and running the script is straightforward:
 
@@ -170,10 +170,10 @@ azureTags:
 This resource group contains a virtual network (VNet) with two subnets: front-end and back-end. The VNet is configured with a network security group (NSG) that restricts inbound traffic to HTTPS and SSH ports only. Resources in the front-end subnet include an Azure App Service for web hosting, while the back-end subnet hosts an Azure SQL Database...
 ```
 
-This output is **concise**, **readable**, and **easy to understand** — exactly what you need for internal documentation or knowledge base entries.
+This output is **concise**, **readable**, and **easy to understand** - exactly what you need for internal documentation or knowledge base entries.
 
 ## Conclusion
 
 Azure Assistants is a perfect example of how you can use **existing tools** and basic **Python** skills to achieve powerful results with LLMs. There's no need for elaborate agent frameworks when simple scripts, combined with Azure CLI and OpenAI's API, can generate clear, comprehensive documentation for your Azure Resource Groups.
 
-This tool demonstrates that with the right prompts and a solid structure, **anyone** with basic scripting skills can leverage AI to automate cloud documentation — making it a valuable assistant for any DevOps or infrastructure team.
+This tool demonstrates that with the right prompts and a solid structure, **anyone** with basic scripting skills can leverage AI to automate cloud documentation - making it a valuable assistant for any DevOps or infrastructure team.
