@@ -18,7 +18,9 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-
+    env:
+      GIT_COMMITTER_EMAIL: itlackey@gmail.com
+      GIT_COMMITER_NAME: itlackey
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v1
