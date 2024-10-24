@@ -1,6 +1,6 @@
 ---
 title: Deploying Strapi to an Azure AppService
-description: I have seen a lot of people have issues deploying a Strapi JS application on Azure AppServices. It is...
+description: Deploying Strapi to an Azure AppService can be done with a few additional steps. This guide provides additional steps to get Strapi running on Azure AppService.
 tags: 'webdev, devops, azure, strapi'
 published: true
 id: 1656904

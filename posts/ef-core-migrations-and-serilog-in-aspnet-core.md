@@ -1,6 +1,6 @@
 ---
 title: EF Core Migrations and Serilog in ASPNet Core
-description: Posting a note about using EF Core Migrations while using Serilog in a ASPNet Core application.  A co...
+description: Posting a note about using EF Core Migrations while using Serilog in a ASPNet Core application.
 tags: 'dotnet, csharp, aspnet, efcore'
 published: true
 id: 512734
