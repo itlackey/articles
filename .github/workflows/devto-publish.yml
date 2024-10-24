@@ -1,26 +1,17 @@
 # This workflow will push and update articles on dev.to each time a new
 # commit is pushed to the main branch.
-#
-# To make it work, you need a dev.to API key, see:
-# https://docs.dev.to/api/#section/Authentication/api_key
-#
-# Once you have generated the token, you need to add them as a secret in your
-# GitHub repository:
-# - DEVTO_TOKEN: your dev.to API key
-# See https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets
-# for more information about GitHub secrets.
 
 name: publish
 on:
   push:
     branches: [main]
-
+    paths: ['posts/**/*.md']
 jobs:
   publish:
     runs-on: ubuntu-latest
     env:
       GIT_COMMITTER_EMAIL: itlackey@gmail.com
-      GIT_COMMITER_NAME: itlackey
+      GIT_COMMITTER_NAME: itlackey
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v1
