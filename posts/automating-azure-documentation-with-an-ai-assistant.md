@@ -109,7 +109,7 @@ A key feature of this script is the ability to **customize the prompts** sent to
     - The purpose of each resource (if possible).
     - Highlighting network configurations and data locations such as storage accounts and databases.
     - Be sure to include IP addresses in the documentation when they are available.
-    - Include information about virtuanl network peerings.
+    - Include information about virtual network peering.
     - It is very important that you also include any potential security issues that you may find.
   ```
 
