@@ -1,9 +1,12 @@
 ---
-title: "Cassi: An AI-Powered CSS Style Guide Generator"
-tags: 'ai, css, ai agents, documentation'
-description: "Introducing Cassi, an AI-powered CSS assistant that generates markdown-based documentation from your existing CSS files."
+title: 'Cassi: An AI-Powered CSS Style Guide Generator'
+tags: 'ai, css, agents, documentation'
+description: 'Introducing Cassi, an AI-powered CSS assistant that generates markdown-based documentation from your existing CSS files.'
 series: Cassi
-published: false
+published: true
+cover_image: 'https://raw.githubusercontent.com/itlackey/cassi/refs/heads/main/assets/banner-small.webp'
+id: 2107632
+date: '2024-11-16T23:40:24Z'
 ---
 
 # Cassi: An AI-Powered CSS Assistant
