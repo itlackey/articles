@@ -3,7 +3,7 @@ title: "Cassi: An AI-Powered CSS Style Guide Generator"
 tags: 'ai, css, ai agents, documentation'
 description: "Introducing Cassi, an AI-powered CSS assistant that generates markdown-based documentation from your existing CSS files."
 series: Cassi
-published: true
+published: false
 ---
 
 # Cassi: An AI-Powered CSS Assistant
