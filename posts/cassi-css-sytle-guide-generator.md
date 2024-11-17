@@ -110,3 +110,12 @@ Cassi was built to solve a problem I am currently facing. Now that I can easily 
 CSS documentation doesn't have to be a manual, time-consuming process. **Cassi** can quickly generate rich, markdown-based documentation that is easy to use, integrate, and customize.
 
 **What do you think?** Would Cassi be useful in your projects? Let me know in the comments below!
+
+## Shout Outs
+
+Before we wrap up, I wanted to mention a couple of great projects. Be sure to go support these projects:
+
+- [augmented-ui](https://augmented-ui.com/) - Great cyberpunk style UI library.
+- [Ollama](https://ollama.ai/) - A fantastic tool to use for hosting AI models locally.
+- [11ty](https://www.11ty.dev/) - One of the best static site generators around.
+
