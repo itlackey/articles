@@ -4,6 +4,7 @@ tags: 'ai, ollama, agents, llm'
 description: How to run Ollama using Intel Arc GPU
 series: IPEX
 id: 2123422
+published: true
 ---
 
 # Run Ollama on Intel Arc GPU (IPEX)
