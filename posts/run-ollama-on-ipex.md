@@ -5,6 +5,7 @@ description: How to run Ollama using Intel Arc GPU
 series: IPEX
 id: 2123422
 published: true
+date: '2024-11-27T06:25:21Z'
 ---
 
 # Run Ollama on Intel Arc GPU (IPEX)
