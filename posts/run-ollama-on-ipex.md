@@ -3,8 +3,6 @@ title: "Run Ollama on Intel Arc GPU (IPEX)"
 tags: "ai, ollama, agents, llm"
 description: "How to run Ollama using Intel Arc GPU"
 series: IPEX
-published: true
-date: "2024-11-26T23:40:24Z"
 ---
 
 # Run Ollama on Intel Arc GPU (IPEX)
