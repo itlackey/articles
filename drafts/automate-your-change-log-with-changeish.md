@@ -1,14 +1,14 @@
 ---
-title: Automate your change log with Changeish
+title: Changeish: Automate your changelog with AI
 description: Changeish allows you to easily automate updating your code's change log.
-tags: 'ai,development,devops,programming'
+tags: 'ai,git,devops,cli'
 series: 'Changeish'
 cover_image: ''
 canonical_url: null
 published: false
 ---
 
-As a developer on a large project, I found myself struggling to keep up with manual changelog updates. It's easy to fall behind when dozens of commits are flying in. To solve this, I wrote a small tool called changeish - a Bash script that automates changelog entries by tapping into an LLM (Large Language Model) using Ollama, a local AI runner. In this article, I'll explain why changeish is useful for streamlining your release notes and how you can start using it in your own workflow.
+Tired of manually writing release notes after dozens of commits? It's easy to fall behind when commits are flying in. To solve this, I wrote a small tool called [changeish](https://github.com/itlackey/changeish) - a Bash script that automates changelog entries by tapping into an LLM (Large Language Model) using Ollama, a local AI runner. In this article, I'll explain why changeish is useful for streamlining your release notes and how you can start using it in your own workflow.
 
 ## Why Automate Your Changelog?
 
@@ -96,6 +96,6 @@ Because changeish is just a lightweight Bash script, it's easy to hack or custom
 
 Keeping a changelog shouldn't be a chore, and with changeish it no longer is. By leveraging a local AI model through Ollama, this script automates the heavy lifting of generating human-readable summaries of your git history. It ensures your project's changelog is always up-to-date with minimal effort, which is especially valuable for large or fast-moving codebases.
 
-Whether you're an open-source maintainer or managing a private codebase at work, changeish can save you time and help you maintain better documentation of changes. Give it a try, and you might wonder how you managed releases without it!
+> ✨ For more details, check out the [changeish repository on GitHub](https://github.com/itlackey/changeish) - contributions and feedback are welcome. Don't forget to star the repo, and leave a comment to let me know what you think!
 
-For more details, check out the changeish repository on GitHub - contributions and feedback are welcome. Happy coding, and enjoy your auto-magically updated changelogs!
+Happy coding, and enjoy your auto-magically updated changelogs!
