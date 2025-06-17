@@ -1,11 +1,13 @@
 ---
-title: Changeish: Automate your changelog with AI
+title: 'Changeish: Automate your changelog with AI'
 description: Changeish allows you to easily automate updating your code's change log.
 tags: 'ai,git,devops,cli'
-series: 'Changeish'
+series: Changeish
 cover_image: ''
 canonical_url: null
-published: false
+published: true
+id: 2595796
+date: '2025-06-17T06:09:03Z'
 ---
 
 Tired of manually writing release notes after dozens of commits? It's easy to fall behind when commits are flying in. To solve this, I wrote a small tool called [changeish](https://github.com/itlackey/changeish) - a Bash script that automates changelog entries by tapping into an LLM (Large Language Model) using Ollama, a local AI runner. In this article, I'll explain why changeish is useful for streamlining your release notes and how you can start using it in your own workflow.
