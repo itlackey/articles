@@ -49,9 +49,7 @@ Use the following one-liner commands to download changeish into your current dir
 ### Download the changeish script and prompt template
 
 ```bash
-curl -o changes.sh <https://raw.githubusercontent.com/itlackey/changeish/main/changes.sh>
-curl -o changelog_prompt.md <https://raw.githubusercontent.com/itlackey/changeish/main/changelog_prompt.md>
-chmod +x changes.sh
+curl -fsSL https://raw.githubusercontent.com/itlackey/changeish/main/install.sh | sh
 ```
 
 This will fetch the `changes.sh` Bash script along with its companion prompt file, `changelog_prompt.md`, and set the proper execute permission on the script. (Feel free to place them in a directory that's on your $PATH if you want to use changeish globally across projects.)
