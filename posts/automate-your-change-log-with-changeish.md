@@ -52,7 +52,7 @@ Use the following one-liner commands to download changeish into your current dir
 curl -fsSL https://raw.githubusercontent.com/itlackey/changeish/main/install.sh | sh
 ```
 
-This will fetch the `changes.sh` Bash script along with its companion prompt file, `changelog_prompt.md`, and set the proper execute permission on the script. (Feel free to place them in a directory that's on your $PATH if you want to use changeish globally across projects.)
+This will fetch the `changesish` Bash script along with its companion prompt file, `changelog_prompt.md`. The script is placed into your $PATH, and the template is dropped in the current folder.
 
 ## Using changeish for Your Project
 
@@ -60,7 +60,7 @@ Once installed, using changeish to update your changelog is a breeze. Here's a t
 
 1. Navigate to Your Repo: Open a terminal in the directory of the Git repository you want to generate a changelog for.
 
-2. Run the Script: Execute `./changes.sh`. The script will run Git to gather commit info and then attempt to invoke Ollama to generate the changelog text. Depending on the size of your history and the model in use, this may take a few moments.
+2. Run the Script: Execute `changeish`. The script will run Git to gather commit info and then attempt to invoke Ollama to generate the changelog text. Depending on the size of your history and the model in use, this may take a few moments.
 
 3. Watch the Magic: If everything is set up, you'll see Ollama processing the prompt. The AI's output (a nicely formatted changelog section) will be printed and automatically added to your CHANGELOG.md file at the top. For example, it might insert something like:
 
